@@ -34,8 +34,7 @@ class MainActivity : AppCompatActivity() {
                     displayTextView.setTextSize(TypedValue.COMPLEX_UNIT_SP, size)
                 }        }
 
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-            }
+            override fun onNothingSelected(parent: AdapterView<*>?) {}
         }
 
     }
